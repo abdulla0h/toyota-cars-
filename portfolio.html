@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Riaz - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, steelblue, mediumslateblue);
+            color: white;
+        }
+
+        header {
+            background-color: midnightblue;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: steelblue;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: dodgerblue;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: dodgerblue;
+        }
+
+        p {
+            line-height: 1.6;
+            color: dimgray;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: dodgerblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: royalblue;
+        }
+
+        .social-icons {
+            font-size: 24px;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abdullah Riaz</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about"><i class="fas fa-user"></i> About</a>
+        <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate web developer with a focus on creating responsive and user-friendly websites.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Story Book for Kids</h3>
+                <p>Designed and developed an interactive storybook for children aged 3 to 4, promoting early literacy.</p>
+            </li>
+            <li>
+                <h3>Newspaper Layout with HTML and CSS</h3>
+                <p>Implemented a modern newspaper layout using HTML and CSS, showcasing creativity in web design.</p>
+            </li>
+            <li>
+                <h3>Burger Ordering Website</h3>
+                <p>Created a responsive burger ordering website using HTML and CSS, providing a seamless user experience.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Feel free to contact me via email at <a href="mailto:riazabdullah674@gmail.com">riazabdullah674@gmail.com</a>.
+        </p>
+        <p>
+            Connect with me on social media:
+            <a href="https://www.instagram.com/abdollah_riaz" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram-square social-icons"></i> Instagram
+            </a>
+            <a href="https://twitter.com/your_twitter_username" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square social-icons"></i> Twitter
+            </a>
+        </p>
+    </section>
+</body>
+</html>
